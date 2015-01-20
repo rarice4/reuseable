@@ -1,12 +1,15 @@
 $(document).ready(function(){
     
-    function set_new_destin(a, b, c) {
-      //a = jquery object
-      //b = value of object to trigger page change
-      //c =  new destination page
+    function set_new_destin(jqobjecct, val, destin) {
+      //jqobject = jquery object
+      //val = value of object to trigger page change
+      //destin =  new destination page
         
-        if (a.val() == b ){
-          $('[name="d"]').val(c);
+        if (jqobject.val() == val ){
+          $('[name="d"]').val(destin);
         }   
         };
 });
+
+
+
